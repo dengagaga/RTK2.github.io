@@ -18,11 +18,12 @@
 .section-info__cards {
   max-width: 1110px;
   display: flex;
+  justify-content:center;
   gap: 30px;
 }
 .section-info__card {
   border-radius: 10px;
-  width: calc(30% - 10px);
+  width: calc(50% - 10px);
   display: flex;
   flex-direction: column;
   background-color: var(--bg);

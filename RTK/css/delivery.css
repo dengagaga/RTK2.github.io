@@ -1,5 +1,5 @@
 .section-main {
-  padding-bottom: 101px;
+  padding-bottom: 101px;  
 }
 .section-main__banner {
   background-image: url(../images/banner/banner-city.png);
@@ -36,7 +36,7 @@
   line-height: 28px;
 }
 .section-delivery__text-wrapper {
-  margin-top: auto;
+ margin-top: auto; 
 }
 .section-delivery__text {
   font-size: 16px;
@@ -44,57 +44,7 @@
 .section-delivery__text:not(:last-child) {
   margin-bottom: 15px;
 }
-.section-delivery_all {
-  display: flex;
-  gap: 80px;
-  align-items: end;
-}
-.section-delivery-ac {
-  padding-top: 10px;
-}
-.section-delivery_all {
-  /* background-color: #f4f7fa;
-  border-radius: 20px;
-  padding: 53px 65px; */
-}
-.section-delivery_all-list {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-.section-delivery_all-list-img {
-  background-color: #dcf2e7;
-  padding: 30px 37px;
-  border-radius: 10px;
-  max-width: 175px;
-  width: 100%;
-  height: 175px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.section-delivery_all-list-h2 {
-  font-size: 24px;
-  font-weight: 600;
-  max-width: 156px;
-  text-align: center;
-  margin-bottom: 6px;
-}
-.section-delivery_all-list-h3 {
-  font-size: 20px;
-  font-weight: 600;
-  text-align: center;
-  margin-bottom: 6px;
-}
-.section-delivery_all-list-h3-two {
-  margin-bottom: 42px;
-}
-.section-delivery_all-list-text {
-  font-size: 18px;
-  font-weight: 500;
-  text-align: center;
-  margin-bottom: 13px;
-}
+
 @media (max-width: 1000px) {
   .section-delivery__card {
     height: auto;
@@ -116,27 +66,15 @@
   .section-delivery__card {
     width: 100%;
   }
-  .section-delivery_all {
-    flex-direction: column;
-  }
-  .section-delivery {
-    padding-bottom: 10px;
-  }
 }
 @media (max-width: 540px) {
+  .section-delivery {
+    padding-block: 85px;
+  }
   .section-delivery__title {
     font-size: 20px;
   }
   .section-delivery__text {
     font-size: 14px;
-  }
-  .section-delivery_all-list-h2 {
-    font-size: 22px;
-  }
-  .section-delivery_all-list-h3-two {
-    margin-bottom: 30px;
-  }
-  .section-delivery_all-list-h3 {
-    font-size: 18px;
   }
 }

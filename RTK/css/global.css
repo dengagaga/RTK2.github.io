@@ -24,12 +24,7 @@ ul {
 }
 
 p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1,h2,h3,h4,h5,h6 {
   margin: 0;
   padding: 0;
 }
@@ -37,17 +32,15 @@ h6 {
 html {
   box-sizing: border-box;
 }
-*,
-*::before,
-*::after {
+*, *::before, *::after{
   box-sizing: inherit;
 }
-input[type="search"] {
+input[type=search] {
   box-sizing: border-box;
 }
 
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   font-size: 18px;
   line-height: 1.4;
@@ -81,7 +74,9 @@ main {
   line-height: 58.51px;
   text-align: center;
 }
-
+.title-1-1 {
+  font-size: 54px;
+}
 .title-2 {
   font-size: 24px;
   font-weight: 600;
@@ -334,7 +329,7 @@ main {
   width: 100%;
 }
 .products-list__bottom {
-  padding: 25px 21px 21px;
+  padding: 0px 21px 21px;
 }
 .products-list__title {
   font-size: 18px;
@@ -365,7 +360,7 @@ main {
   background: var(--gradient-hover);
 }
 .products-list__link::after {
-  content: url("../images/icons/arrow-right.svg");
+  content: url('../images/icons/arrow-right.svg');
   position: absolute;
   right: 15px;
   top: 50%;
@@ -380,7 +375,7 @@ main {
 .main-banner {
   border-radius: 30px;
   border: none;
-  background-image: url("../images/banner/banner-forest.png");
+  background-image: url('../images/banner/banner-forest.png');
   background-repeat: no-repeat;
   background-size: cover;
   padding: 72px 65px;
@@ -394,7 +389,7 @@ main {
 .promo-banner {
   border-radius: 30px;
   border: none;
-  background-image: url("../images/bg-banner.png");
+  background-image: url('../images/bg-banner.png');
   background-repeat: no-repeat;
   background-size: cover;
   padding: 68px 30px 68px 28px;
@@ -452,7 +447,7 @@ main {
   font-weight: 400;
   line-height: 32px;
 }
-.promo-banner__input::placeholder {
+.promo-banner__input::placeholder{
   color: var(--text-in-boxes);
 }
 .promo-banner__link {
@@ -467,7 +462,7 @@ main {
   padding: 14px 68px 14px 44px;
 }
 .promo-banner__link::after {
-  content: url("../images/icons/arrow-right.svg");
+  content: url('../images/icons/arrow-right.svg');
   position: absolute;
   right: 55px;
   top: 50%;
@@ -572,8 +567,8 @@ main {
   padding: 11px 15px;
 }
 .section-contacts__form input,
-.section-contacts__form input::placeholder,
-.section-contacts__form textarea,
+.section-contacts__form input::placeholder, 
+.section-contacts__form textarea, 
 .section-contacts__form textarea::placeholder {
   font-family: inherit;
   font-size: 16px;
@@ -604,9 +599,7 @@ main {
 .section-contacts__form-btn:hover {
   background: var(--gradient-1-hover);
 }
-.main-banner__title-22 {
-  max-width: 800px;
-}
+
 @media (max-width: 1200px) {
   .section-contacts__form label {
     width: 100%;
@@ -727,6 +720,10 @@ main {
     font-size: 16px;
   }
   .title-1 {
+    font-size: 32px;
+    line-height: 38px;
+  }
+  .title-1-1 {
     font-size: 32px;
     line-height: 38px;
   }
