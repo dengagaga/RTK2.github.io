@@ -67,7 +67,7 @@
 .section-about__list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
   gap: 80px 150px;
 }
 .section-about__item {
@@ -196,6 +196,7 @@
     padding-right: 20px;
     padding-bottom: 10px;
     display: flex;
+    justify-content: space-between;
     gap: 20px;
 }
 .products_list-item-top-left h2{
@@ -227,7 +228,8 @@
     border: 1px solid rgba(128, 128, 128, 0.158);
     border-left: none;
     border-bottom: none;
-    width: 50%;
+    /* width: 50%; */
+    width: 100%;
 }
 .products_list-item-mid-item {
   display: flex;
